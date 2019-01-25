@@ -1,0 +1,28 @@
+{
+    "name": "nerio/sms",
+    "description": "sms library",
+    "type": "library",
+    "require": {
+        "overtrue/easy-sms": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cjy",
+            "email": "cjy632258@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nerio\\Sms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nerio\\Sms\\SmsServiceProvider"
+            ]
+        }
+    }
+}
